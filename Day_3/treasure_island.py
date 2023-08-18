@@ -21,3 +21,4 @@ elif first_step == "left":
         print("Attacked by Trout \n Game Over")
 else:
     print("Fall into a hole \n Game Over")
+# game finished
