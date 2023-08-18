@@ -8,7 +8,8 @@ elif first_step == "left":
     if second_step == "swim" or second_step == " ":
         print("Attacked by trout\n Game Over")
     elif second_step == "wait":
-        third_step = input("You have arrived in the island unharmed\nThere is a house with 3 doors\nOne Red, one yellow and one blue?\nWhich color do you choose?: ").lower()
+        third_step = input(
+            "You have arrived in the island unharmed\nThere is a house with 3 doors\nOne Red, one yellow and one blue?\nWhich color do you choose?: ").lower()
         if third_step == "blue" or third_step == " ":
             print("Eaten by beasts \n Game Over")
         elif third_step == "red":
