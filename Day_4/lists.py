@@ -10,6 +10,6 @@ names = ["Alice", "Bob", "Carol", "Dave", "Eve", "Frank", "George", "Hannah",
          "Isaac", "James", "Katherine", "Leo", "Mary", "Noah", "Olivia", "Peter",
          "Quinn", "Robert", "Sarah", "Thomas", "Umaima", "Victor", "William", "Xavier",
          "Yusuf", "Zara"]
-random_name = random.randint(0, len(names))
+random_name = random.randint(0, len(names)-1)
 print(names[random_name])
 
