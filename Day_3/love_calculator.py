@@ -18,8 +18,9 @@ love_score = str(true) + str(love)
 lvScoreInteger = int(love_score)
 
 if lvScoreInteger < 10 or lvScoreInteger > 90:
-    print(f"Your score is {lvScoreInteger} you go together like coke and mentos")
+    print(
+        "Your score is {lvScoreInteger} you go together like coke and mentos")
 elif lvScoreInteger <= 40 or lvScoreInteger >= 50:
-    print(f"Your score is {lvScoreInteger}, you are alright together")
+    print("Your score is {lvScoreInteger}, you are alright together")
 else:
-    print(f"Your score is {lvScoreInteger}")
+    print("Your score is {lvScoreInteger}")
