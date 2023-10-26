@@ -35,7 +35,7 @@ if user_choice == 0 and computer_choice == 2:
 elif computer_choice == 0 and user_choice == 2:
     print("You lose")
 elif computer_choice == 1 and user_choice == 0:
-    print("You won")
+    print("You lose")
 elif computer_choice == 2 and user_choice == 1:
     print("")
 elif computer_choice == user_choice:
@@ -44,4 +44,4 @@ else:
     print("You typed a wrong number")
 
 
-
+#todo: finish the task and do a case study
